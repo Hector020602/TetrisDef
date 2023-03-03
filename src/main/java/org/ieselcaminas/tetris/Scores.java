@@ -49,6 +49,7 @@ public class Scores {
             }
         } else {
             list.add(score);
+            
         }
         writeListsToFile();
     }

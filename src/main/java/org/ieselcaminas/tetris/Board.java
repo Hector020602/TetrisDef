@@ -18,7 +18,7 @@ import javax.swing.Timer;
  *
  * @author victor
  */
-public class Board extends javax.swing.JPanel {
+public class Board extends javax.swing.JPanel  {
     
     public static final int NUM_ROWS = 22;
     public static final int NUM_COLS = 10;
@@ -35,6 +35,7 @@ public class Board extends javax.swing.JPanel {
     private Tetrominoes[][] matrix;
     
     private MyKeyAdapter keyAdapter;
+
 
     public void setIncrementer(Incrementer incrementer) {
         this.incrementer = incrementer;
